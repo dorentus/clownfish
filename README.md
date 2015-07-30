@@ -3,11 +3,11 @@
 
 # :tropical_fish: Clownfish
 
-> [Fishshell](fishshell.com) Theme.
+> [Fishshell](http://fishshell.com) Theme.
 
 ## Features
 
-> For better experience, install [lolcat][https://github.com/busyloop/lolcat] or [mruby-lolcat][https://github.com/dorentus/mruby-lolcat].
+> For better experience, install [lolcat](https://github.com/busyloop/lolcat) or [mruby-lolcat](https://github.com/dorentus/mruby-lolcat) first.
 
 + Two-line prompt line displaying current path segments and git status.
 
@@ -20,6 +20,7 @@
 ## Screenshot
 
 <p align="center">
+<img src="https://cloud.githubusercontent.com/assets/60363/8977900/cae1a80e-36cf-11e5-9621-53aa2fcf826a.png" />
 </p>
 
 
