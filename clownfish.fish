@@ -19,7 +19,7 @@ function init --on-event init_clownfish
   set -g __fish_git_prompt_color_stagedstate yellow
   set -g __fish_git_prompt_color_invalidstate red
   set -g __fish_git_prompt_color_untrackedfiles $fish_color_normal
-  set -g __fish_git_prompt_color_cleanstate green bold
+  set -g __fish_git_prompt_color_cleanstate green
 
   set -g __fish_git_prompt_color_suffix black
   set -g __fish_git_prompt_color_prefix black
