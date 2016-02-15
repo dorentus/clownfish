@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/Wahoo-Theme-00b0ff.svg?style=flat-square)][Wahoo]
+[![](https://img.shields.io/badge/Fishshell-Theme-00b0ff.svg?style=flat-square)][Fishshell]
 ![](https://img.shields.io/badge/License-MIT-707070.svg?style=flat-square)
 
 # :tropical_fish: Clownfish
@@ -28,4 +28,4 @@
 
 [MIT](http://opensource.org/licenses/MIT) © [Zhang Yi][Author]
 [Author]: https://github.com/dorentus
-[Wahoo]: https://github.com/fish-shell/wahoo
+[Fishshell]: https://github.com/fish-shell/fish-shell
