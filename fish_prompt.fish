@@ -18,17 +18,17 @@ function fish_prompt
   if not test $last_status -eq 0
     set prompt_line_color $fish_color_error
   else
-    set prompt_line_color black
+    set prompt_line_color 333
   end
 
   printf "%s\n┌─ %s%s%s%s%s%s%s:%s%s%s\n└─── %s%s %s%s " \
     (set_color $prompt_line_color) \
-    (set_color black) $USER \
-    (set_color black) $at_symbol \
-    (set_color black --bold) (clownfish::computername) (set_color normal) \
+    (set_color 333) $USER \
+    (set_color 333) $at_symbol \
+    (set_color 333 --bold) (clownfish::computername) (set_color normal) \
     (set_color blue) (echo $PWD | sed -e "s|^$HOME|~|") \
     (set_color $prompt_line_color) \
-    (set_color black) $__clownfish_prompt_emoji (set_color normal) \
+    (set_color 333) $__clownfish_prompt_emoji (set_color normal) \
     (__fish_git_prompt)
 
   set_color normal
