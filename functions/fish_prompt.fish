@@ -29,7 +29,6 @@ function fish_prompt
     (set_color blue) (echo $PWD | sed -e "s|^$HOME|~|") \
     (set_color $prompt_line_color) \
     (set_color 333) $__clownfish_prompt_emoji (set_color normal) \
-    (__fish_git_prompt)
+    (__fish_git_prompt)(set_color normal)
 
-  set_color normal
 end
