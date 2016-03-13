@@ -5,6 +5,14 @@
 
 > [Fishshell](http://fishshell.com) Theme.
 
+## Install
+
+With [Fisherman](https://github.com/fisherman/fisherman):
+
+```
+fisher i dorentus/clownfish
+```
+
 ## Features
 
 > For better experience, install [lolcat](https://github.com/busyloop/lolcat) or [mruby-lolcat](https://github.com/dorentus/mruby-lolcat) first.
