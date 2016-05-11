@@ -10,7 +10,7 @@
 With [Fisherman](https://github.com/fisherman/fisherman):
 
 ```
-fisher i dorentus/clownfish
+fisher dorentus/clownfish
 ```
 
 ## Features
