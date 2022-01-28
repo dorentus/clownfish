@@ -3,7 +3,7 @@ function clownfish::computername -d "Computer Name"
     if command -s scutil > /dev/null
       set -g __clownfish_computername (scutil --get ComputerName)
     else
-      set -g __clownfish_computername (hostname -f ^ /dev/null; or hostname)
+      set -g __clownfish_computername (hostname -f 2> /dev/null; or hostname)
     end
   end
 
