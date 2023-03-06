@@ -4,7 +4,7 @@ function fish_prompt
   if not set -q __clownfish_prompt_emoji
     set -l symbols 🍏 🍡 👾 ⭕ 🌀 🌐
     set -l symbols_count (count $symbols)
-    set -l hosthash (begin hostname -f ^ /dev/null; or hostname; end | tr -d '\n' | shasum)
+    set -l hosthash (begin hostname -f > /dev/null; or hostname; end | tr -d '\n' | shasum)
     set -l selected_index (ruby -e "print '$hosthash'.to_i(16) % $symbols_count + 1")
     set -g __clownfish_prompt_emoji $symbols[$selected_index]
   end
