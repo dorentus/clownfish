@@ -20,5 +20,5 @@ set -g __fish_git_prompt_color_invalidstate red
 set -g __fish_git_prompt_color_untrackedfiles $fish_color_normal
 set -g __fish_git_prompt_color_cleanstate green
 
-set -g __fish_git_prompt_color_suffix black
-set -g __fish_git_prompt_color_prefix black
+set -g __fish_git_prompt_color_suffix brblack
+set -g __fish_git_prompt_color_prefix brblack
