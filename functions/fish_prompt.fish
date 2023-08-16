@@ -10,7 +10,11 @@ function fish_prompt
   end
 
   if test (clownfish::platform) = 'Darwin'
-    set at_symbol 
+    if test (sysctl -n sysctl.proc_translated) -eq 1
+      set at_symbol (set_color red)(set_color normal)
+    else
+      set at_symbol 
+    end
   else
     set at_symbol @
   end
