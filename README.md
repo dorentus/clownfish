@@ -1,5 +1,7 @@
-[![](https://img.shields.io/badge/Fishshell-Theme-00b0ff.svg?style=flat-square)][Fishshell]
+![](https://img.shields.io/badge/Fishshell-Theme-00b0ff.svg?style=flat-square)
 ![](https://img.shields.io/badge/License-MIT-707070.svg?style=flat-square)
+
+![Stone Badge](https://stone.professorlee.work/api/stone/dorentus/clownfish)
 
 # :tropical_fish: Clownfish
 
